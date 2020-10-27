@@ -229,7 +229,7 @@
     float: left;
     margin: 0;
     padding: 0 15px;
-    width: 16.66%;
+    width: 33.33%;
     height: 80px;
     background-repeat: no-repeat;
     background-position: center center;
@@ -241,7 +241,7 @@
     }
 
     @media (min-width: $screen-sm-max) and (max-width: $screen-lg-min) {
-      width: 16.66%;
+      width: 33.33%;
       height: 60px;
     }
 

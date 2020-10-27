@@ -1,0 +1,23 @@
+<section class="section--subscribe">
+  <div class="container container--content">
+    <h3 class="u-alignCenter">Stay in touch</h3>
+    <p>
+      Hi, we are <a href="{{ 'about/' | relative_url }}">Nomadic Method</a>. It's very nice to meet you!
+    </p>
+    <div class="newsletterForm-wrapper">
+      <!-- Begin Revue Signup Form -->
+      <div id="revue-embed">
+        <form action="http://fyi.nomadicmethod.rocks/add_subscriber" method="post" id="revue-form" name="revue-form"  target="_blank">
+        <div class="revue-form-group">
+          <input class="revue-form-field textInput textInput--large" placeholder="Your email address..." type="email" name="member[email]" id="member_email">
+        </div>
+        <div class="revue-form-actions clear u-alignCenter">
+          <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit" class="button button--primary">
+        </div>
+        </form>
+      </div>
+      <!-- End Revue Signup Form -->
+    </div>
+    <hr/>
+  </div>
+</section>
